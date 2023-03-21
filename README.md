@@ -9,7 +9,7 @@
 
 # Round 4 Problem (In Finals): Code a Web App from Wireframe
 ## Wirefram of Web App
-[Problem-4-wireframe.pdf](https://github.com/Krish-Panchani/Mobile-Web-App/files/11031247/Problem-4-wireframe.pdf)
+[Problem-4-wireframe](https://github.com/Krish-Panchani/Mobile-Web-App/blob/main/Problem-4-wireframe.pdf/ "Wireframe")
 
 ## My Design Submission Screenshorts
 
