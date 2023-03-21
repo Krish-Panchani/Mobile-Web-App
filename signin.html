@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Krish Panchani" />
+
+    <!-- Default CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Animate CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- Google Font API CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu" />
+
+    <!-- Tailwind CSS CDN  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Swiper Theme CSS CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- Swiper Bundle  CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- jquery for swiper  -->
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+
+    <title>App Name | Krish Panchani #1306</title>
+    <meta name="description"
+        content="This mobile Website App is designed for Rao CODE FEST v2.0, Final Round (Round 4). Website is designed by Krish Panchani (#1306)" />
+</head>
+
+<body>
+    <div class="flex wow animate__fadeInRight">
+        <img class="mx-auto my-14 w-32" src="img/logo.png" alt="" />
+    </div>
+
+    <div class="flex">
+        <h2 class="text-red-400 mx-auto text-xl font-bold wow animate__fadeInRight">
+            Sign In
+        </h2>
+    </div>
+
+    <div>
+        <form action="#" autocomplete="off" class="flex flex-col items-center">
+            <div class="my-2 wow animate__fadeInRight">
+                <input class="px-8 py-2 border-2 border-orange-400 rounded-lg" type="email"
+                    placeholder="Email Address" />
+            </div>
+
+            <div class="flex flex-col wow animate__fadeInRight">
+                <input class="px-8 py-2 border-2 border-orange-400 rounded-lg" type="password" placeholder="Password" />
+                <span class="flex justify-end py-5 text-blue-600 text-sm">Forgot Password</span>
+            </div>
+
+            <button
+                class="px-32 text-white font-bold font-xl py-5 border-2 rounded-xl mx-auto bg-gradient-to-r from-red-500 to-orange-500 shadow wow animate__fadeInRight">
+                Sign In
+            </button>
+        </form>
+    </div>
+
+    <div class="flex flex-col py-8">
+        <span class="text-xs text-red-400 items-center mx-auto wow animate__fadeInRight">Sign In With</span>
+
+        <div class="flex justify-evenly py-6 wow animate__fadeInRight">
+            <img class="w-12 h-auto border border-black rounded-md px-2 py-2" src="img/google.png" alt="" />
+            <img class="w-12 h-auto border border-black rounded-md px-2 py-2" src="img/facebook.png" alt="" />
+            <img class="w-12 h-auto border border-black rounded-md px-2 py-2" src="img/apple.png" alt="" />
+        </div>
+
+        <span class="text-xs text-blue-400 items-center mx-auto wow animate__fadeInRight">Register</span>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+
+    <!-- WOW JS  -->
+    <script src="js/wow.min.js"></script>
+
+    <script>
+        wow = new WOW({
+            boxClass: "wow", // default
+            animateClass: "animate__animated", // default
+            offset: 0, // default
+            mobile: true, // default
+            live: true, // default
+        });
+        wow.init();
+    </script>
+
+    <!-- Default JS  -->
+    <script src="js/index.js"></script>
+</body>
+
+</html>

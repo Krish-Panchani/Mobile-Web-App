@@ -1,0 +1,58 @@
+/* 
+primary = orange 60%
+secondary = red 30%
+third blue 10 % 
+*/
+
+body {
+    font-family: Ubuntu;
+    overflow-x: hidden;
+}
+
+.slide1 {
+    background-image: url(img/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slide2 {
+    background-image: url(img/img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slide3 {
+    background-image: url(img/img3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.best_seller {
+    background-image: url(img/img3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.product_header1 {
+    background-image: url(img/img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.product_header2 {
+    background-image: url(img/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.product_header3 {
+    background-image: url(img/img3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menuM {
+    position: sticky;
+    bottom: 0;
+}

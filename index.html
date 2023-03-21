@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Krish Panchani">
+
+    <!-- Default CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Animate CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- Google Font API CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+
+    <!-- Tailwind CSS CDN  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Swiper Theme CSS CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- Swiper Bundle  CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- jquery for swiper  -->
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+
+    <title>APP NAME | Krish Panchani #1306</title>
+    <meta name="description"
+        content="This mobile Website App is designed for Rao CODE FEST v2.0, Final Round (Round 4). Website is designed by Krish Panchani (#1306)" />
+</head>
+
+<body>
+
+    <!-- NAV BAR -->
+    <nav class="relative flex border-b-2 rounded-lg border-black wow animate__animated">
+        <div class="flex justify-between py-5 items-center">
+            <div onclick="openMenu()">
+                <div class="navbar-burger flex items-center text-orange-600 p-3">
+                    <svg class="block h-8 w-8 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+                    </svg>
+                </div>
+            </div>
+
+            <div>
+                <h1
+                    class="text-2xl font-bold px-24 bg-gradient-to-r from-red-500 to-orange-500 bg-clip-text text-transparent">
+                    App Name</h1>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- NAV BAR OPEN  -->
+    <div id="menuOpen" class="absolute top-0 left-0 z-40 hidden">
+        <div class="shadow-xl w-72 py-14 bg-white">
+
+            <img class="w-16 h-auto px-4" src="img/close.png" alt="" onclick="closeMenu()">
+            <img class="my-14 w-32 h-auto mx-auto" src="img/logo.png" alt="">
+
+            <div class="px-4 py-4">
+                <a href="/">
+                    <span
+                        class="text-xl font-bold border-spacing-2 bg-gradient-to-r from-red-500 to-orange-500 bg-clip-text text-transparent">
+                        Home</span>
+                </a>
+            </div>
+
+            <hr class=" bg-blue-500">
+            <div class="px-4 py-4">
+                <a href="#">
+                    <span
+                        class="text-xl font-bold border-spacing-2 bg-gradient-to-r from-red-500 to-orange-500 bg-clip-text text-transparent">
+                        Products</span>
+                </a>
+            </div>
+
+            <hr class=" bg-blue-500">
+            <div class="px-4 py-4">
+                <a href="cart.html">
+                    <span
+                        class="text-xl font-bold  border-spacing-2 bg-gradient-to-r from-red-500 to-orange-500 bg-clip-text text-transparent">
+                        Cart</span>
+                </a>
+            </div>
+
+            <hr class=" bg-blue-500">
+
+            <div class="px-4 py-4">
+                <a href="#">
+                    <span
+                        class="text-xl font-bold border-spacing-2 bg-gradient-to-r from-red-500 to-orange-500 bg-clip-text text-transparent">
+                        Orders</span>
+                </a>
+            </div>
+
+            <hr class=" bg-blue-500">
+
+            <div class="px-4 py-4">
+                <a href="signin.html">
+                    <span
+                        class="text-xl font-bold border-spacing-2 bg-gradient-to-r from-red-500 to-orange-500 bg-clip-text text-transparent">
+                        Sign Out</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="py-3 wow animate__fadeInRight">
+        <span class="font-bold px-5 text-red-500 text-lg ">Hi, #1306</span>
+    </div>
+
+    <div>
+
+    </div>
+
+
+    <!-- Slider main container -->
+    <div class="swiper wow animate__fadeInUp">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide slide1">
+                <div class="reletive bg-image py-28"></div>
+                <div class="absolute left-0 top-0 flex flex-col px-10 py-4">
+
+                </div>
+
+
+            </div>
+            <div class="swiper-slide slide2">
+                <div class="reletive bg-image py-28"></div>
+                <div class="absolute left-0 top-0 flex flex-col px-10 py-4">
+
+                </div>
+
+
+            </div>
+            <div class="swiper-slide slide3">
+                <div class="reletive bg-image py-28"></div>
+                <div class="absolute left-0 top-0 flex flex-col px-10 py-4">
+
+                </div>
+
+                <div class="autoplay-progress hidden">
+                    <svg viewBox="0 0 48 48">
+                        <circle cx="24" cy="24" r="20"></circle>
+                    </svg>
+                    <span></span>
+                </div>
+            </div>
+
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <div class="flex justify-between py-5 px-3">
+        <span class="font-bold text-red-400 wow animate__fadeInLeft">Article Feed Header</span>
+        <span class="font-bold text-blue-400 wow animate__fadeInRight">Load More</span>
+    </div>
+
+    <div class="flex items-center border rounded-lg mx-2 border-black mb-2 wow animate__fadeInUp">
+        <div class="px-2">
+            <img class="w-32 h-auto" src="img/burger.png" alt="">
+        </div>
+        <div class="flex flex-col">
+            <h2 class="font-bold">Feed Item Title</h2>
+            <p class="w-25">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, reprehenderit.</p>
+        </div>
+        <div class="px-2 text-end flex items-end">
+            <span class="text-blue-400 text-sm font-bold">Read More</span>
+        </div>
+    </div>
+
+    <div class="flex items-center border rounded-lg mx-2 border-black mb-2 wow animate__fadeInUp">
+        <div class="px-2">
+            <img class="w-32 h-auto" src="img/burger.png" alt="">
+        </div>
+        <div class="flex flex-col">
+            <h2 class="font-bold">Feed Item Title</h2>
+            <p class="w-25">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, reprehenderit.</p>
+        </div>
+        <div class="px-2 text-end flex items-end">
+            <span class="text-blue-400 text-sm font-bold">Read More</span>
+        </div>
+    </div>
+
+    <div class="wow animate__fadeInUp">
+        <span
+            class="font-bold text-xl px-2 py-2 bg-gradient-to-r from-red-500 to-orange-500 bg-clip-text text-transparent">Sale
+            Header</span>
+    </div>
+
+    <div class="best_seller h-24 border border-black rounded-lg px-2 py-4 mx-2 mb-2 wow animate__fadeInUp">
+        <span class="bg-white px-2 py-2 border rounded-xl mt-8 mr-2 text-red-400">Sale Tag</span>
+    </div>
+
+    <div class="wow animate__fadeInUp">
+        <span
+            class="font-bold text-xl px-2 py-2 bg-gradient-to-r from-red-500 to-orange-500 bg-clip-text text-transparent">Sale
+            Text
+        </span>
+    </div>
+
+    <div class="wow animate__fadeInUp">
+        <span class="font-bold px-2 py-2 bg-gradient-to-r text-red-400">Products Header</span>
+    </div>
+
+
+    <div class="flex wow animate__fadeInUp">
+        <div class="product_header1 border rounded-xl h-56 w-32 mx-2"></div>
+        <div class="product_header2 border rounded-xl h-56 w-32 mx-2"></div>
+        <div class="product_header3 border rounded-xl h-56 w-32 mx-2"></div>
+    </div>
+
+    <div class="menuM wow animate__fadeInUp">
+        <div class="flex justify-between bg-white py-2 mx-2">
+            <a href="/">
+                <div class="flex flex-col items-center">
+                    <img class="w-8 h-8" src="img/home.png" alt="">
+                    <span class="font-bold">Home</span>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="flex flex-col items-center">
+                    <img class="w-8 h-8" src="img/product.png" alt="">
+                    <span class="font-bold ">Product</span>
+                </div>
+            </a>
+
+            <a href="cart.html">
+                <div class="flex flex-col items-center">
+                    <img class="w-8 h-8" src="img/cart.png" alt="">
+                    <span class="font-bold ">Cart</span>
+                </div>
+            </a>
+
+            <a href="https://github.com/Krish-Panchani">
+                <div class="flex flex-col items-center">
+                    <img class="w-8 h-8" src="img/profile.png" alt="">
+                    <span class="font-bold ">Profile</span>
+                </div>
+            </a>
+        </div>
+    </div>
+
+
+    <script src="js/jquery.min.js"></script>
+
+
+    <!-- WOW JS  -->
+    <script src="js/wow.min.js"></script>
+
+    <script>
+        wow = new WOW(
+            {
+                boxClass: 'wow',      // default
+                animateClass: 'animate__animated', // default
+                offset: 0,          // default
+                mobile: true,       // default
+                live: true        // default
+            }
+        )
+        wow.init();
+    </script>
+
+    <!-- Default JS  -->
+    <script src="js/index.js"></script>
+
+
+</body>
+
+</html>
